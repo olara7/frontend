@@ -21,6 +21,18 @@ Features:
 This figma file includes inspo sections, main design and possible different designs. 
 They also include mobile designs with each design.
 
+Techonology Used:
+- Styled Components - css framework
+- React JS
+- Next JS - SSR (good for e-commerce sites because of SEO , routing)
+- Framer Motion - small animations
+- Strapi - Headless CMS
+- Auth0 - Simple, authentication and authorization
+- stripe - Handle payments
+- Cloudinary - Optimize images
+- GraphQL - query language for APIs
+- Postgres DB - storing products
+
 ### Things I learned:
 - First time using Styled Components - liked the way it organizes css.
 - First time using Framer Motion - enjoyed the small animations that can make a website stand out
