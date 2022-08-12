@@ -14,6 +14,7 @@ Features:
 - Add products to cart
 - Cart items will remain after refresh
 - Checkout with Stripe
+- Promotion codes
 - Desktop and Mobile design
 - Designed in Figma
 - Interactive background using particle js
@@ -42,6 +43,7 @@ Techonology Used:
 - First time using a headless CMS like Strapi - liked the ability to add, edit and remove items quickly
 - First time using auth0 - have used database, jwt token and firebase, but liked the simplicity of auth0
 - First time using cloudinary - integrates well with strapi and can increase perfomance by optimizing images
+- First time using Stripe - like the customizability, use EARTHDAY at checkout for 15% discount
 - Learned how to create a cart component and keeping the items after a refresh by using local storage.
 - React Context
 - First time using react particles - easy to implement and customize
