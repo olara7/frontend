@@ -3,6 +3,9 @@
 
 ![planterra](https://user-images.githubusercontent.com/54912970/184286507-d90eae3b-ea77-40aa-8304-1a7b9da3bfde.PNG)
 
+![planterra checkout test](https://user-images.githubusercontent.com/54912970/184292395-54ed6586-e7cb-4982-b4c0-56067a5af089.PNG)
+
+
 This is a project built mainly to get experience using a CMS and building an e-commerce site.
 
 Features:
