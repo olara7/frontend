@@ -21,7 +21,7 @@ export const Wrapper = styled.div`
   button {
     margin: 20px 0;
     min-height: 60px;
-    padding: 20px 31px;
+    padding: 20px 20px;
     font-size: 16px;
     line-height: 20px;
     font-weight: bold;
@@ -37,15 +37,27 @@ export const Wrapper = styled.div`
     display: block;
     color: white;
     box-sizing: border-box;
-    border: 2px solid transparent;
+    border: 0px solid transparent;
     background-image: linear-gradient(
       90deg,
-      rgba(222, 63, 251, 1) 0%,
-      rgba(145, 32, 207, 1) 100%
+      rgba(180, 71, 200, 1) 0%,
+      rgba(120, 8, 181, 1) 100%
     );
+    box-shadow: 0 0px 10px rgba(120, 8, 181, 1);
+
     background-clip: padding-box;
     overflow: hidden;
     z-index: 1;
+
+    &:hover {
+      color: linear-gradient(
+        90deg,
+        rgba(180, 71, 200, 1) 0%,
+        rgba(120, 8, 181, 1) 100%
+      );
+      box-shadow: 0 5px 15px rgba(120, 8, 181, 1);
+      transition: box-shadow 0.3s ease-in-out;
+    }
   }
 
   @media (max-width: 450px) {
