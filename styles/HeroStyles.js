@@ -38,7 +38,11 @@ export const Wrapper = styled.div`
     color: white;
     box-sizing: border-box;
     border: 2px solid transparent;
-    background-image: linear-gradient(90deg, #008cff, #6942ef);
+    background-image: linear-gradient(
+      90deg,
+      rgba(222, 63, 251, 1) 0%,
+      rgba(145, 32, 207, 1) 100%
+    );
     background-clip: padding-box;
     overflow: hidden;
     z-index: 1;

@@ -16,7 +16,9 @@ export default function HeroSection() {
           <span> WONDERFUL </span> HOME
         </h1>
       </GradiantWrapper>
-      <button> BROWSE OUR PRODUCTS </button>
+      <button onClick={() => window.scrollTo(0, 1000)}>
+        BROWSE OUR PRODUCTS
+      </button>
       <Image src={shopping} alt="shopping girl" />
       <ProductsHeader> Our Products </ProductsHeader>
     </Wrapper>
