@@ -21,7 +21,7 @@ export const Wrapper = styled.div`
   button {
     margin: 20px 0;
     min-height: 60px;
-    padding: 20px 20px;
+    padding: 20px 30px;
     font-size: 16px;
     line-height: 20px;
     font-weight: bold;
